@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Navbar from './../components/Navbars/IndexNavbar'
+
 
 const Home = () => {
   return (
-    <div>Home</div>
-  )
-}
+    <>
+      <Navbar />
+      <div>Home</div>
+    </>
+  );
+};
 
-export default Home
+export default Home;
